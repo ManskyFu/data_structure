@@ -1,6 +1,6 @@
 #include "array/random_array.h"
 #include <malloc.h>
-#include <stdlib.h>
+#include <stdio.h>
 
 void shell(int*);
 
