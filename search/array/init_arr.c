@@ -25,3 +25,12 @@ void exch(int *a, int *b)
     *a      = *b;
     *b      = tmp;
 }
+void print_subscript(int subscript)
+{
+    if (subscript == NONNUM)
+    {
+        puts("It is not in the array!");
+        return;
+    }
+    printf("Its subscript is %d.\n", subscript);
+}
