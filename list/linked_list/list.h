@@ -9,5 +9,6 @@ typedef struct linked_list {
 list *create_head_pointer(void);
 void create_list(list *);
 void print_list(list *);
+void delete_list(list *);
 
 #endif

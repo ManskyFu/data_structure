@@ -5,5 +5,6 @@ int main(void)
     list *p = create_head_pointer();
     create_list(p);
     print_list(p);
+    delete_list(p);
     return 0;
 }

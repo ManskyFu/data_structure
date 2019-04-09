@@ -32,3 +32,15 @@ void print_list(list *phead)
     }
     putchar('\n');
 }
+void delete_list(list *phead)
+{
+    list *tmp;
+    list *p = phead;
+
+    while (p)
+    {
+        tmp = p;
+        p = p->next;
+        free(tmp);
+    }
+}
